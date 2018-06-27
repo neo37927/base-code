@@ -13,6 +13,7 @@ import java.util.List;
  * 1、各种遍历方式的区别：for、foreach、stream-foreach、stream-filter
  * 2、针对JMM的优化，采用多次查询同一值
  * 3、针对全范围查询检测
+ * 4、针对目前的测试数据：明显数组会比foreach更快速，但是Java编译器，推荐为foreach
  */
 public class SeekTest {
 
