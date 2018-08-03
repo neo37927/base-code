@@ -8,10 +8,20 @@ import java.util.List;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.atomic.AtomicReferenceArray;
 
+/**
+ * 多级消息处理分发器
+ * TODO 功能：
+ * 1、动态客户端列表
+ * 2、客户端专属消息队列（支持fork和join）
+ * 3、已分配队列消息，回收并再分配
+ * 4、队列均支持双向队列
+ *
+ */
 @Slf4j
 public class DispatchMessageTask implements Runnable {
-//    private AtomicReferenceArray;
+    //    private AtomicReferenceArray;
     private List<BlockingQueue> subMsgQueues;
+
     @Override
     public void run() {
         BlockingQueue<Message> subQueue;
@@ -36,7 +46,7 @@ public class DispatchMessageTask implements Runnable {
         }
     }
 
-    public DispatchMessageTask getInstance(){
+    public DispatchMessageTask getInstance() {
         //顺序
         //闲置优先
         return new DispatchMessageTask();
