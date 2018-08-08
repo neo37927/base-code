@@ -1,6 +1,6 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
-import com.code.demo.concurrent.async.SingleResultCallback;
+import com.main.function.concurrent.async.SingleResultCallback;
 
 import java.io.Closeable;
 import java.util.concurrent.TimeUnit;

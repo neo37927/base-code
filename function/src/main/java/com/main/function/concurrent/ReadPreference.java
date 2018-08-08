@@ -1,10 +1,11 @@
-package com.code.demo.concurrent;
+package com.main.function.concurrent;
 
-import com.code.demo.concurrent.annotations.Immutable;
-import com.code.demo.concurrent.connection.ClusterDescription;
-import com.code.demo.concurrent.connection.ServerDescription;
+import com.main.function.concurrent.annotations.Immutable;
+import com.main.function.concurrent.connection.ClusterDescription;
+import com.main.function.concurrent.connection.ServerDescription;
 import org.bson.BsonDocument;
 import org.bson.BsonString;
+
 
 import java.util.List;
 
@@ -100,7 +101,7 @@ public abstract class ReadPreference {
      * @return ReadPreference which reads primary if available, otherwise a secondary respective of tags.\
      * @since 2.13
      */
-    public static TaggableReadPreference primaryPreferred(final TagSet tagSet) {
+    public static TaggableReadPreference primaryPreferred(final com.main.function.concurrent.TagSet tagSet) {
         return new TaggableReadPreference.PrimaryPreferredReadPreference(tagSet);
     }
 

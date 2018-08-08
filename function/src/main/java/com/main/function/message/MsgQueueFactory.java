@@ -1,4 +1,4 @@
-package com.code.demo.queue.message;
+package com.main.function.message;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,8 +1,8 @@
-package com.code.demo.concurrent.internal;
+package com.main.function.concurrent.internal;
 
-import com.code.demo.concurrent.MongoInternalException;
-import com.code.demo.concurrent.MongoInterruptedException;
-import com.code.demo.concurrent.MongoTimeoutException;
+import com.main.function.concurrent.MongoInternalException;
+import com.main.function.concurrent.MongoInterruptedException;
+import com.main.function.concurrent.MongoTimeoutException;
 
 import java.util.Deque;
 import java.util.Iterator;

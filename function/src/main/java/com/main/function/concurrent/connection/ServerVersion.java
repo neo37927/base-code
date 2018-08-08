@@ -1,12 +1,12 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static com.code.demo.concurrent.assertions.Assertions.isTrue;
-import static com.code.demo.concurrent.assertions.Assertions.notNull;
+import static com.main.function.concurrent.assertions.Assertions.isTrue;
+import static com.main.function.concurrent.assertions.Assertions.notNull;
 import static java.util.Arrays.asList;
 
 /**

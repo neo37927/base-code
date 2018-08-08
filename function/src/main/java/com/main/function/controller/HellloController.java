@@ -1,4 +1,4 @@
-package com.code.demo.controller;
+package com.main.function.controller;
 
 import com.code.demo.service.HelloService;
 import lombok.extern.java.Log;

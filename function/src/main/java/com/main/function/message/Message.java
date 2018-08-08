@@ -1,4 +1,4 @@
-package com.code.demo.queue.message;
+package com.main.function.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

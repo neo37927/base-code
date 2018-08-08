@@ -1,4 +1,4 @@
-package com.code.demo.queue.message;
+package com.main.function.message;
 
 public interface IMsgQueue {
     void put(Message msg);

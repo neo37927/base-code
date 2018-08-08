@@ -1,6 +1,6 @@
-package com.code.demo.concurrent.assertions;
+package com.main.function.concurrent.assertions;
 
-import com.code.demo.concurrent.async.SingleResultCallback;
+import com.main.function.concurrent.async.SingleResultCallback;
 
 /**
  * <p>Design by contract assertions.</p> <p>This class is not part of the public API and may be removed or changed at any time.</p>

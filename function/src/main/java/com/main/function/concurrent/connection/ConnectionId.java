@@ -1,11 +1,11 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
-import com.code.demo.concurrent.annotations.Immutable;
+import com.main.function.concurrent.annotations.Immutable;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.code.demo.concurrent.assertions.Assertions.isTrue;
-import static com.code.demo.concurrent.assertions.Assertions.notNull;
+import static com.main.function.concurrent.assertions.Assertions.isTrue;
+import static com.main.function.concurrent.assertions.Assertions.notNull;
 import static java.lang.String.format;
 
 /**

@@ -1,6 +1,6 @@
-package com.code.demo.concurrent;
+package com.main.function.concurrent;
 
-import com.code.demo.concurrent.annotations.Immutable;
+import com.main.function.concurrent.annotations.Immutable;
 
 import java.io.Serializable;
 import java.net.InetAddress;

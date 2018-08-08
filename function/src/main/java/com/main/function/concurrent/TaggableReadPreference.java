@@ -1,8 +1,8 @@
-package com.code.demo.concurrent;
+package com.main.function.concurrent;
 
-import com.code.demo.concurrent.annotations.Immutable;
-import com.code.demo.concurrent.connection.ClusterDescription;
-import com.code.demo.concurrent.connection.ServerDescription;
+import com.main.function.concurrent.annotations.Immutable;
+import com.main.function.concurrent.connection.ClusterDescription;
+import com.main.function.concurrent.connection.ServerDescription;
 import org.bson.BsonArray;
 import org.bson.BsonDocument;
 import org.bson.BsonString;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static com.code.demo.concurrent.assertions.Assertions.notNull;
+import static com.main.function.concurrent.assertions.Assertions.notNull;
 
 /**
  * Abstract class for all preference which can be combined with tags

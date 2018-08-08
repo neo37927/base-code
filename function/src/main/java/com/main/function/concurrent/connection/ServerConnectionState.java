@@ -1,4 +1,4 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
 /**
  * Enum of the current state of attempting to connect to a server.

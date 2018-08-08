@@ -1,8 +1,8 @@
-package com.code.demo.queue.message.producter;
+package com.main.function.message.producter;
 
-import com.code.demo.queue.message.IMsgQueue;
-import com.code.demo.queue.message.Message;
-import com.code.demo.queue.message.MsgQueueFactory;
+import com.main.function.message.IMsgQueue;
+import com.main.function.message.Message;
+import com.main.function.message.MsgQueueFactory;
 
 public class ProducerMessageTask implements Runnable{
     @Override

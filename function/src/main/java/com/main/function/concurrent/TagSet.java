@@ -1,10 +1,10 @@
-package com.code.demo.concurrent;
+package com.main.function.concurrent;
 
-import com.code.demo.concurrent.annotations.Immutable;
+import com.main.function.concurrent.annotations.Immutable;
 
 import java.util.*;
 
-import static com.code.demo.concurrent.assertions.Assertions.notNull;
+import static com.main.function.concurrent.assertions.Assertions.notNull;
 
 /**
  * An immutable set of tags, used to select members of a replica set to use for read operations.

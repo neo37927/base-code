@@ -1,10 +1,10 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
-import com.code.demo.concurrent.ServerAddress;
-import com.code.demo.concurrent.annotations.Immutable;
+import com.main.function.concurrent.ServerAddress;
+import com.main.function.concurrent.annotations.Immutable;
 
-import static com.code.demo.concurrent.assertions.Assertions.notNull;
-import static com.code.demo.concurrent.connection.ServerDescription.getDefaultMaxDocumentSize;
+import static com.main.function.concurrent.assertions.Assertions.notNull;
+import static com.main.function.concurrent.connection.ServerDescription.getDefaultMaxDocumentSize;
 
 /**
  * A description of a connection to a MongoDB server.

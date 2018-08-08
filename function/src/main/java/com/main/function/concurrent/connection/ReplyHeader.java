@@ -1,6 +1,6 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
-import com.code.demo.concurrent.MongoInternalException;
+import com.main.function.concurrent.MongoInternalException;
 import org.bson.io.BsonInput;
 
 import static java.lang.String.format;

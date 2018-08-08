@@ -1,8 +1,8 @@
-package com.code.demo.concurrent;
+package com.main.function.concurrent;
 
-import com.code.demo.concurrent.annotations.Immutable;
+import com.main.function.concurrent.annotations.Immutable;
 
-import static com.code.demo.concurrent.assertions.Assertions.notNull;
+import static com.main.function.concurrent.assertions.Assertions.notNull;
 
 /**
  * A replica set tag.

@@ -1,4 +1,4 @@
-package com.code.demo.concurrent.annotations;
+package com.main.function.concurrent.annotations;
 
 import java.lang.annotation.*;
 

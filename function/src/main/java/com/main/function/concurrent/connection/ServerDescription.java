@@ -1,9 +1,9 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
-import com.code.demo.concurrent.ServerAddress;
-import com.code.demo.concurrent.TagSet;
-import com.code.demo.concurrent.annotations.Immutable;
-import com.code.demo.concurrent.annotations.NotThreadSafe;
+import com.main.function.concurrent.ServerAddress;
+import com.main.function.concurrent.TagSet;
+import com.main.function.concurrent.annotations.Immutable;
+import com.main.function.concurrent.annotations.NotThreadSafe;
 import org.bson.types.ObjectId;
 
 import java.text.DecimalFormat;
@@ -12,9 +12,9 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import static com.code.demo.concurrent.assertions.Assertions.notNull;
-import static com.code.demo.concurrent.connection.ServerConnectionState.CONNECTED;
-import static com.code.demo.concurrent.connection.ServerType.*;
+import static com.main.function.concurrent.assertions.Assertions.notNull;
+import static com.main.function.concurrent.connection.ServerConnectionState.CONNECTED;
+import static com.main.function.concurrent.connection.ServerType.*;
 
 /**
  * Immutable snapshot state of a server.

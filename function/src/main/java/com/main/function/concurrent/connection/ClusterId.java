@@ -1,8 +1,8 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
 import org.bson.types.ObjectId;
 
-import static com.code.demo.concurrent.assertions.Assertions.notNull;
+import static com.main.function.concurrent.assertions.Assertions.notNull;
 
 /**
  * A client-generated identifier that uniquely identifies a connection to a MongoDB cluster, which could be sharded, replica set,

@@ -1,8 +1,8 @@
-package com.code.demo.queue.message.customer;
+package com.main.function.message.customer;
 
-import com.code.demo.queue.message.IMsgQueue;
-import com.code.demo.queue.message.Message;
-import com.code.demo.queue.message.MsgQueueFactory;
+import com.main.function.message.IMsgQueue;
+import com.main.function.message.Message;
+import com.main.function.message.MsgQueueFactory;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 

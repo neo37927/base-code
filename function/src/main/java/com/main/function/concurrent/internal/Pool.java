@@ -1,4 +1,4 @@
-package com.code.demo.concurrent.internal;
+package com.main.function.concurrent.internal;
 
 import java.util.concurrent.TimeUnit;
 

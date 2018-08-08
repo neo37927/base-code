@@ -1,4 +1,4 @@
-package com.code.demo.concurrent.connection;
+package com.main.function.concurrent.connection;
 
 /**
  * The cluster connection mode.
