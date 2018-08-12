@@ -7,9 +7,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * The class to which this annotation is applied is not thread-safe. This annotation primarily exists for clarifying the non-thread-safety
- * of a class that might otherwise be assumed to be thread-safe, despite the fact that it is a bad idea to assume a class is thread-safe
- * without good reason.
+ * 应用此批注的类不是线程安全的。
+ * 这个注释主要用于澄清类的非线程安全性，否则可能被认为是线程安全的，尽管事实上假设一个类是没有充分理由的线程安全是一个坏主意。
  *
  * @see ThreadSafe
  */

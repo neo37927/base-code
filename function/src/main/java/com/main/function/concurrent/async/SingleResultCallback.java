@@ -1,14 +1,14 @@
 package com.main.function.concurrent.async;
 
 /**
- * An interface to describe the completion of an asynchronous operation.
+ * 描述异步操作完成的接口.
  *
  * @param <T> the result type
  * @since 3.0
  */
 public interface SingleResultCallback<T> {
     /**
-     * Called when the operation completes.
+     * 操作完成后调用
      * @param result the result, which may be null.  Always null if e is not null.
      * @param t      the throwable, or null if the operation completed normally
      */
