@@ -4,6 +4,9 @@ import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import sun.font.TrueTypeFont;
 
+/**
+ * 类的各部分加载顺序
+ */
 @Data
 @Slf4j
 public class Bean {
