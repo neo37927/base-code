@@ -1,12 +1,11 @@
 package com.main.frame.initial;
 
 public class ClassInitialTest {
-    //静态区域的构建顺序，将影响一些变量的初始化过程
-    public static int counter2 = 0;
-
     private static ClassInitialTest singleton = new ClassInitialTest();
 
     public static int counter1;
+    //静态区域的构建顺序，将影响一些变量的初始化过程
+    public static int counter2 = 0;
 
 
 
