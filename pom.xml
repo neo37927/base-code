@@ -20,6 +20,7 @@
         <module>safety</module>
         <module>function</module>
         <module>frame</module>
+        <module>source</module>
     </modules>
 
     <dependencies>

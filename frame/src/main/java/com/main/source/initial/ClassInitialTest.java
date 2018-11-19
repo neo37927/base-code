@@ -1,4 +1,4 @@
-package com.main.frame.initial;
+package com.main.source.initial;
 
 public class ClassInitialTest {
     private static ClassInitialTest singleton = new ClassInitialTest();
